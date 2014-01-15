@@ -1,7 +1,6 @@
 ---
 project:     socket
 tagline:     Network support for Lua
-category:    OS
 ---
 
 ## `local socket = require'socket'`
