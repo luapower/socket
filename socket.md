@@ -1,9 +1,11 @@
 ---
-project:     socket
-tagline:     Network support for Lua
+project: socket
+tagline: networking support (LuaSocket)
 ---
 
 ## `local socket = require'socket'`
+
+LuaSocket.
 
 ## Documentation
 
