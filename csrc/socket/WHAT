@@ -1,5 +1,4 @@
 LuaSocket 2.0.2 from http://w3.impa.br/~diego/software/luasocket/ (MIT license)
-requires: lua-headers, luajit
 
 download link: http://files.luaforge.net/releases/luasocket/luasocket/luasocket-2.0.2/luasocket-2.0.2.tar.gz
 
