@@ -9,7 +9,7 @@ LuaSocket.
 
 ## Documentation
 
-It's [here](luasocket doc).
+It's [here][luasocket doc].
 
 
 [luasocket doc]: http://w3.impa.br/~diego/software/luasocket/reference.html
