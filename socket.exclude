@@ -16,6 +16,8 @@
 !/media/
 
 !/socket*
+!/mime.lua
+!/ltn12.lua
 !/socket/
 !/socket/**
 !/bin/mingw32/clib/socket*

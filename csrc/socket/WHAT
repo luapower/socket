@@ -1,5 +1,1 @@
-LuaSocket 2.0.2 from http://w3.impa.br/~diego/software/luasocket/ (MIT license)
-
-download link: http://files.luaforge.net/releases/luasocket/luasocket/luasocket-2.0.2/luasocket-2.0.2.tar.gz
-
-socket.lua moved to root dir
+LuaSocket 3.0-rc1 from https://github.com/diegonehab/luasocket (MIT license)
