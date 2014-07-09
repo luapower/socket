@@ -3,7 +3,7 @@ project: socket
 tagline: networking support
 ---
 
-**NOTE: This is just a distribution of luasocket. luasocket is developed [here][luasocket site].**
+> **NOTE:** This is just a distribution of luasocket. luasocket is developed [here][luasocket site].
 
 ## `local socket = require'socket'`
 
