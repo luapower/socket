@@ -15,7 +15,7 @@
 !/csrc/
 !/media/
 
-!/socket*
+!/socket.*
 !/mime.lua
 !/ltn12.lua
 !/socket/
