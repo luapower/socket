@@ -214,7 +214,7 @@ local function adjustheaders(reqt)
     local lower = {
         ["user-agent"] = _M.USERAGENT,
         ["host"] = host,
-        ["connection"] = "close, TE",
+        ["connection"] = (reqt.noclose and "" or "close, ") .. "TE",
         ["te"] = "trailers"
     }
     -- if we have authentication information, pass it along
