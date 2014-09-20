@@ -111,7 +111,7 @@ function _M.open(host, port, create)
     local c = socket.try((create or socket.tcp)())
     local h = base.setmetatable({ c = c }, metat)
     -- create finalized try
-    h.try = socket.newtry(function() h:close() end)
+    h.try = socket.newtry(function() h:close(true) end)
     -- set timeout before connecting
     h.try(c:settimeout(_M.TIMEOUT))
     h.try(c:connect(host, port or _M.PORT))
