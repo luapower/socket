@@ -34,6 +34,13 @@
 !/bin/osx64/clib/socket/
 !/bin/osx64/clib/socket/**
 
+!/bin/mingw32/socket_*
+!/bin/mingw64/socket_*
+!/bin/linux32/libsocket_*
+!/bin/linux64/libsocket_*
+!/bin/osx32/libsocket_*
+!/bin/osx64/libsocket_*
+
 !/bin/mingw32/clib/mime/
 !/bin/mingw32/clib/mime/**
 !/bin/mingw64/clib/mime/
@@ -46,6 +53,13 @@
 !/bin/osx32/clib/mime/**
 !/bin/osx64/clib/mime/
 !/bin/osx64/clib/mime/**
+
+!/bin/mingw32/mime_*
+!/bin/mingw64/mime_*
+!/bin/linux32/libmime_*
+!/bin/linux64/libmime_*
+!/bin/osx32/libmime_*
+!/bin/osx64/libmime_*
 
 !/csrc/socket/
 !/csrc/socket/**

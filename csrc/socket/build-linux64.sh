@@ -1,7 +1,3 @@
-files="$(ls -1 src/*.c | grep -v wsocket)"
-mkdir -p ../../bin/linux64/clib/socket
-gcc -O2 -s -static-libgcc -fPIC $files -shared -o ../../bin/linux64/clib/socket/core.so -I. -I../lua \
-    -DLUASOCKET_API=extern
-
-mkdir -p ../../bin/linux64/clib/mime
-gcc -O2 -s -static-libgcc -fPIC src/mime.c -shared -o ../../bin/linux64/clib/mime/core.so -I. -I../lua
+files="$(ls -1 src/*.c | grep -v wsocket)" \
+	P=linux64 C="-fPIC -DLUASOCKET_API=extern" L="-s -static-libgcc" \
+	SD=core.so MD=core.so MA=libsocket_core.a SA=libmime_core.a ./build.sh
