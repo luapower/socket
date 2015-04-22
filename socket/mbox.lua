@@ -1,8 +1,9 @@
 local _M = {}
 
 if module then
-    mbox = _M
-end 
+    --not anymore, sorry to break compatibility.
+    --mbox = _M
+end
 
 function _M.split_message(message_s)
     local message = {}
