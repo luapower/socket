@@ -1,5 +1,4 @@
 ---
-project: socket
 tagline: networking support
 ---
 
