@@ -9,8 +9,8 @@ ${X}ar rcs ../../bin/$P/$SA *.o
 rm *.o
 
 mkdir -p "$(dirname ../../bin/$P/clib/mime/$MD)"
-${X}gcc -c -O2 $C src/mime.c -I. -I../lua-headers
-${X}gcc mime.o -shared -o ../../bin/$P/clib/mime/$MD $L
+${X}gcc -c -O2 $C src/mime.c src/compat.c -I. -I../lua-headers
+${X}gcc mime.o compat.o -shared -o ../../bin/$P/clib/mime/$MD $L
 rm -f      ../../bin/$P/$MA
 ${X}ar rcs ../../bin/$P/$MA mime.o
 
